@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import  {AuthDialogsRedirectComponent} from "./components/Dialogs/Dialogs";
 import Music from "./components/Music/Music";
 import News from "./components/News/News";
-import {BrowserRouter, Route} from "react-router-dom"
+import {HashRouter, Route} from "react-router-dom"
 import SearchUsersContainer from "./components/SearchUsers/SearchUsersContainer";
 import WithUrlDataContainerComponent from "./components/Profile/ProfileContainer";
 import Login from "./components/login/Login";
