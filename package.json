@@ -1,7 +1,7 @@
 {
   "name": "demo-social-network-on-reakt",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://roschek.github.io/demo-social-network-on-reakt",
   "dependencies": {
     "@babel/traverse": "^7.12.1",
