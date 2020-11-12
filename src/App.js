@@ -16,7 +16,7 @@ class App extends React.Component {
 
   render() {
     return (
-        <BrowserRouter>
+        <HashRouter>
 
           <WithUrlHeaderContainer store={this.props.store}/>
           <main className="container-md mt-4 pl-0 row ml-auto mr-auto">
@@ -37,7 +37,7 @@ class App extends React.Component {
               </React.Suspense>
             </section>
           </main>
-        </BrowserRouter>
+        </HashRouter>
     );
   }
 }
